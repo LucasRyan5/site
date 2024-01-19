@@ -1,8 +1,8 @@
-{
-margin:0;
- padding: 0;
-box-sizing: border-box;
-font-family: 'Poppins', sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 html{
@@ -36,7 +36,7 @@ header.rolagem{
 }
 
 header.rolagem a, header.rolagem i{
-    color: #ee5937;
+    color: #FE775A;
 }
 
 header i{
@@ -71,7 +71,7 @@ header ul li a{
 .banner{
     height: 100vh;
     background-image: url(imagens/banner.jpg);
-    background-position: 100% ;
+    background-position: 100% 0;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -86,15 +86,4 @@ header ul li a{
 
 .banner h1 span{
     color: #FFAE81;
-}
-h2{
-    background-color: #FFAE81;
-   
-    width: 520px;
-
-}
-h3{
-    background-color: #FFAE81;
-    width: 100px
-
 }
